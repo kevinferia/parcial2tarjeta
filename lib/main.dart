@@ -84,6 +84,47 @@ class NinjaCard extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 17.0),
+            Row(
+
+              children: <Widget>[
+
+                Icon(
+                  Icons.local_fire_department,
+                  color: Colors.red[900],
+                ),
+                SizedBox(height: 12.0),
+                Text(
+                  'Power: 200',
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                  ),
+                ),
+                Icon(
+                  Icons.security,
+                  color: Colors.brown[600],
+                ),
+                SizedBox(height: 12.0),
+                Text(
+                  'Resis: 400',
+                  style: TextStyle(
+
+                    color: Colors.grey[400],
+                  ),
+                ),
+                Icon(
+                  Icons.favorite,
+                  color: Colors.green[500],
+                ),
+                SizedBox(height: 12.0),
+                Text(
+                  'life: 900',
+                  style: TextStyle(
+                    color: Colors.grey[400],
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
